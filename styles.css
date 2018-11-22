@@ -71,7 +71,7 @@ header .profile-image {
   height: 200px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 1.5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
@@ -86,7 +86,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: #FCD776;
 }
 .card {
   margin: 30px;
@@ -99,8 +99,9 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #F190E7;
 }
+
 
 ul.skills {
   padding: 0;
@@ -150,14 +151,17 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
+
 }
 
+a.spotify {
+  background-image: url(images/spotify.svg);
 }
 a.instagram {
   background-image: url(images/instagram.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(images/github2.svg);
 }
 a.social:hover {
   opacity: 1;
